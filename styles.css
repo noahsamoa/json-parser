@@ -1,1 +1,8 @@
 
+ td, tr, th,  tbody {
+      border-radius: 8px !important;
+    }
+    .json-table-cell {
+      max-width: 20vw; /* Adjust as needed */
+      word-wrap: break-word;
+    }
