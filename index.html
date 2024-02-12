@@ -6,18 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JSON to HTML Table</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js">
-  </script>
-  
-
+<script src="script.js"></script>
 </head>
 
 <body class="bg-gray-100">
 
   <div class="container mx-auto my-8">
     <h1 class="text-3xl font-bold mb-4">JSON to HTML Table</h1>
-    <div class="overflow-x-auto bg-white shadow-md rounded-lg">
+    <div class="overflow-x-auto max-w-full">
       <table id="jsonTable" class="table-auto w-full border-collapse border border-gray-200">
         <thead class="bg-gray-200">
           <tr>
@@ -37,7 +35,7 @@
         class="mt-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:border-blue-300">Convert</button>
     </div>
   </div>
-
 </body>
 
 </html>
+
