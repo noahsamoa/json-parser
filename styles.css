@@ -1,8 +1,21 @@
+td,
+        th {
+            border-radius: 8px !important;
+            padding: 0.5rem;
+            /* Add padding */
+        }
 
- td, tr, th,  tbody {
-      border-radius: 8px !important;
-    }
-    .json-table-cell {
-      max-width: 20vw; /* Adjust as needed */
-      word-wrap: break-word;
-    }
+        .json-table-cell {
+            /* word-wrap: break-word;  Wrap long words */
+            word-break: break-all;
+            /* Break lines */
+        }
+
+        .font-semibold {
+            word-break: normal !important;
+        }
+
+        /* Remove fixed width for table */
+        #jsonTable {
+            table-layout: auto;
+        }
