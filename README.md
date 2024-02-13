@@ -10,9 +10,8 @@ This is a simple web page that allows you to convert a JSON object into an HTML 
 
 ## Technologies Used
 
-- HTML
-- CSS (via Tailwind CSS)
-- JavaScript (jQuery)
+- Tailwind CSS
+- jQuery
 
 ## How to Run
 
